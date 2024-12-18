@@ -24,7 +24,7 @@ const Navbar = () => {
           <a href="#" className="-m-1.5 p-1.5">
             <span className="sr-only">Octate</span>
             <img
-              alt=""
+              alt="Octate Company Logo"
               src="/octate-logo.png"
               className="h-16 w-auto"
             />
@@ -67,11 +67,11 @@ const Navbar = () => {
           <div className="flex items-center justify-between">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
-              <img
-                alt=""
-                src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=600"
-                className="h-8 w-auto"
-              />
+                <img
+              alt="Octate Company Logo"
+              src="/octate-logo.png"
+              className="h-16 w-auto"
+            />
             </a>
             <button
               type="button"
