@@ -19,9 +19,9 @@ const UnlockYourBusiness = () => {
               <div className="p-2 w-[75px] h-[75px] mx-auto content-center mb-4 rounded-full bg-[#2E90FA]/10">
                 <item.icon className="size-8 text-[#2E90FA] mx-auto" />
               </div>
-              <h2 className="text-center text-lg py-2 sm:text-2xl lg:text-3xl font-semibold text-gray-700">
+              <h3 className="text-center text-md py-2 sm:text-md lg:text-lg font-semibold text-gray-500">
                 {item.title}
-              </h2>
+              </h3>
               <p className="text-center text-gray-500 py-2 text-sm">
                 {item.description}
               </p>

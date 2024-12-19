@@ -14,13 +14,19 @@ const LetsWorkTogether = () => {
       />
       <div className="mx-auto flex flex-col items-center">
         <h2
-          style={{ lineHeight: "60px" }}
-          className="mx-2 text-xl font-bold text-center w-[75%]  text-white sm:text-5xl"
+          style={{
+            lineHeight: {
+              base: "30px",
+              sm: "40px",
+              lg: "60px",
+            },
+          }}
+          className="mx-2 text-white text-xl sm:text-4xl lg:text-5xl font-bold text-center sm:w-[85%] lg:w-[75%]  "
         >
           Streamline Your Operations, Gain Real-Time Insights and Fuel Your
           Business Growth today!
         </h2>
-        <div className="mt-16 flex items-center justify-center gap-x-6">
+        <div className="mt-8 sm:mt-12 lg:mt-16 flex items-center justify-center gap-x-6">
           <a
             href="https://staging.octate.ooo/"
             className="rounded-md text-[#2E90FA] px-3.5 py-2.5 text-sm font-semibold bg-white shadow-sm hover:bg-white/90 transition-colors  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"

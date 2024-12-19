@@ -9,6 +9,8 @@ import Testimonials from "@/components/Testimonials";
 import Slider from "@/components/Slider";
 import Partner from "@/components/Partner";
 import LetsWorkTogether from "@/components/LetsWorkTogether";
+import Footer from "@/components/Footer";
+import Navbar from "@/components/Navbar";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -23,6 +25,7 @@ const geistMono = Geist_Mono({
 export default function Home() {
   return (
     <div>
+      <Navbar />
       <Hero />
       <Insights />
       <GetStarted />
@@ -31,6 +34,7 @@ export default function Home() {
       <Testimonials />
       <Partner />
       <LetsWorkTogether />
+      <Footer />
     </div>
   );
 }

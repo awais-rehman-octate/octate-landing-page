@@ -3,7 +3,7 @@ import React from "react";
 
 const Insights = () => {
   return (
-    <div className="bg-white py-16 sm:py-24">
+    <div className="bg-white py-16 sm:pb-24">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <h3 className="text-center py-4 text-lg/8 font-semibold text-gray-700">
           Efficiency, Insight, Growth
