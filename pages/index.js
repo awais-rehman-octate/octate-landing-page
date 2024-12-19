@@ -5,6 +5,10 @@ import GetStarted from "@/components/GetStarted";
 import Insights from "@/components/Insights";
 import UnlockYourBusiness from "@/components/UnlockYourBusiness";
 import Services from "@/components/Services";
+import Testimonials from "@/components/Testimonials";
+import Slider from "@/components/Slider";
+import Partner from "@/components/Partner";
+import LetsWorkTogether from "@/components/LetsWorkTogether";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -24,6 +28,9 @@ export default function Home() {
       <GetStarted />
       <UnlockYourBusiness />
       <Services />
+      <Testimonials />
+      <Partner />
+      <LetsWorkTogether />
     </div>
   );
 }

@@ -5,7 +5,7 @@ const UnlockYourBusiness = () => {
   return (
     <div className="bg-white py-12 sm:py-16">
       <div className="mx-auto max-w-7xl px-6 lg:px-8 ">
-        <h2 className="text-center text-4xl font-semibold text-gray-700">
+      <h2 className="text-center text-lg py-2 sm:text-2xl lg:text-3xl font-semibold text-gray-700">
           Unlock Your Business Potential with Seamless Integrated Modules
         </h2>
         <p className="mt-4 text-center sm:px-12 lg:px-36 text-lg text-gray-500">
@@ -19,7 +19,7 @@ const UnlockYourBusiness = () => {
               <div className="p-2 w-[75px] h-[75px] mx-auto content-center mb-4 rounded-full bg-[#2E90FA]/10">
                 <item.icon className="size-8 text-[#2E90FA] mx-auto" />
               </div>
-              <h2 className="text-center font-semibold text-gray-500">
+              <h2 className="text-center text-lg py-2 sm:text-2xl lg:text-3xl font-semibold text-gray-700">
                 {item.title}
               </h2>
               <p className="text-center text-gray-500 py-2 text-sm">

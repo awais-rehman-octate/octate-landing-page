@@ -98,3 +98,54 @@ export const services = [
   { image: "financialServices.jpeg", title: "FINANCIAL SERVICES" },
   { image: "oilAndGas.jpeg", title: "OIL & GAS" },
 ];
+
+export const testimonials = [
+  {
+    companyLogo: "workcation-logo.svg",
+    companyLogoAlt: "Workcation Logo",
+    quote:
+      '"Our company has experienced a significant boost in productivity and efficiency thanks to this Octate. It has streamlined our processes and provided us with valuable insights for better decision-making."',
+    image: "testimonialPic.png",
+    alt: "Brandon Smith Pic",
+    name: "Brandon Smith",
+    designation: "CFO at FinCorp.",
+    experience: "Experienced Financial Executive",
+  },
+  {
+    companyLogo: "workcation-logo.svg",
+    companyLogoAlt: "Workcation Logo",
+    quote:
+      '"Our company has experienced a significant boost in productivity and efficiency thanks to this Octate. It has streamlined our processes and provided us with valuable insights for better decision-making."',
+    image: "testimonialPic.webp",
+    alt: "Anastesia Stella Pic",
+    name: "Anastesia Stella",
+    designation: "HR at CloudTek",
+    experience: "Experienced Human Resource Manager",
+  },
+  {
+    companyLogo: "workcation-logo.svg",
+    companyLogoAlt: "Workcation Logo",
+    quote:
+      '"Our company has experienced a significant boost in productivity and efficiency thanks to this Octate. It has streamlined our processes and provided us with valuable insights for better decision-making."',
+    image: "testimonialPic.png",
+    alt: "KaleemUllah Qureshi Pic",
+    name: "KaleemUllah Qureshi",
+    designation: "Project Manager at Octate.",
+    experience: "Experienced FullStack Engineer",
+  },
+];
+
+export const partner = [
+  {
+    image: "alOtaiba.png",
+    alt: "Al Otaiba Company Logo",
+  },
+  {
+    image: "xceler8.png",
+    alt: "Xceler8 Company Logo",
+  },
+  {
+    image: "propyz.png",
+    alt: "Propyz Company Logo",
+  },
+];

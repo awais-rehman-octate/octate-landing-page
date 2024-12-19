@@ -8,7 +8,7 @@ const GetStarted = () => {
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-2">
           {/* Left side */}
           <div className="w-full">
-            <h2 className="text-4xl font-semibold tracking-tight text-gray-700">
+          <h2 className="text-center text-lg py-2 sm:text-2xl lg:text-3xl font-semibold text-gray-700">
               Discover a Modern and Flexible ERP Solution
             </h2>
             <p className="mt-4 text-lg text-gray-500">
