@@ -3,12 +3,12 @@ import React from "react";
 
 const Insights = () => {
   return (
-    <div className="bg-white py-16 sm:pb-24">
+    <div className="bg-white py-8 sm:py-12">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <h3 className="text-center py-4 text-lg/8 font-semibold text-gray-700">
+        <h3 className="text-center text-lg/8 font-semibold text-gray-700">
           Efficiency, Insight, Growth
         </h3>
-        <h2 className="text-center text-lg py-2 sm:text-2xl lg:text-3xl font-semibold text-gray-700">
+        <h2 className="text-center text-lg py-4 sm:text-2xl lg:text-3xl font-semibold text-gray-700">
           Transformative Powerful ERP Solutions
         </h2>
         <p className="mt-4 text-center sm:px-12 lg:px-36 text-lg text-gray-500">

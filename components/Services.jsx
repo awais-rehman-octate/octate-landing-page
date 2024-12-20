@@ -5,7 +5,7 @@ import Image from "next/image";
 const Services = () => {
   return (
     <div className="bg-gray-50 py-12 sm:py-16 w-full">
-      <div className="mx-auto w-full md:w-full px-6 lg:px-8 ">
+      <div className="w-full md:w-full px-6 lg:px-8 max-w-7xl mx-auto">
       <h2 className="text-center text-lg py-2 sm:text-2xl lg:text-3xl font-semibold text-gray-700">
           Industries We Serve
         </h2>

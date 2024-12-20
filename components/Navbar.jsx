@@ -15,10 +15,10 @@ const navigation = [
 const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   return (
-    <header className="absolute inset-x-0 top-0 z-50">
+    <header className="relative inset-x-0 top-0 z-50 max-w-7xl mx-auto">
       <nav
         aria-label="Global"
-        className="flex items-center justify-between p-6 lg:px-8"
+        className="flex items-center justify-between py-2 xl:px-0 lg:px-2"
       >
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5">
@@ -34,7 +34,7 @@ const Navbar = () => {
           <button
             type="button"
             onClick={() => setMobileMenuOpen(true)}
-            className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
+            className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-500"
           >
             <span className="sr-only">Open main menu</span>
             <Bars3Icon aria-hidden="true" className="size-6" />
@@ -45,16 +45,19 @@ const Navbar = () => {
             <a
               key={item.name}
               href={item.href}
-              className="text-sm/6 font-semibold text-gray-700"
+              className="text-sm/6 font-semibold text-gray-500"
             >
               {item.name}
             </a>
           ))}
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a href="https://staging.octate.ooo/login" className="text-sm/6 font-semibold text-gray-700">
+          <a href="https://staging.octate.ooo/login" className="text-sm/6 px-4 py-2 font-semibold text-gray-500">
             Log in <span aria-hidden="true">&rarr;</span>
           </a>
+            <a href="https://staging.octate.ooo/login" className="text-sm/6 px-4 py-2 font-semibold rounded-md bg-[#2E90FA] text-white">
+              Sign Up
+            </a>
         </div>
       </nav>
       <Dialog
@@ -76,7 +79,7 @@ const Navbar = () => {
             <button
               type="button"
               onClick={() => setMobileMenuOpen(false)}
-              className="-m-2.5 rounded-md p-2.5 text-gray-700"
+              className="-m-2.5 rounded-md p-2.5 text-gray-500"
             >
               <span className="sr-only">Close menu</span>
               <XMarkIcon aria-hidden="true" className="size-6" />
@@ -97,7 +100,7 @@ const Navbar = () => {
               </div>
               <div className="py-6">
                 <a
-                  href="#"
+                  href="https://staging.octate.ooo/login"
                   className="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
                 >
                   Log in

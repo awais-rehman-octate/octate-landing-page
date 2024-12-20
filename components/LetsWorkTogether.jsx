@@ -4,7 +4,8 @@ import React from "react";
 const LetsWorkTogether = () => {
   return (
     <div className="relative isolate overflow-hidden bg-gray-900 py-8 sm:py-16">
-      <div className="absolute inset-0 bg-[#2E90FA]/60 -z-10" />
+     <div className="max-w-7xl mx-auto">
+     <div className="absolute inset-0 bg-[#2E90FA]/60 -z-10" />
       <Image
         alt=""
         src="/workImage.png"
@@ -35,6 +36,7 @@ const LetsWorkTogether = () => {
           </a>
         </div>
       </div>
+     </div>
     </div>
   );
 };
