@@ -91,12 +91,39 @@ export const services = [
   {
     image: "retailAndDistribution.jpeg",
     title: "RETAIL & DISTRIBUTION",
+    description:
+      "Our ERP system integrates sales, inventory, and customer relationship management to help retail and distribution businesses streamline operations, improve stock control, and deliver a better customer experience. With real-time insights and efficient order fulfillment, you can stay ahead of market trends and grow your business.",
   },
-  { image: "oilAndGas.jpeg", title: "PROFESSIONAL SERVICES" },
-  { image: "manufacturing.jpeg", title: "MANUFACTURING" },
-  { image: "construction.jpeg", title: "CONSTRUCTION" },
-  { image: "financialServices.jpeg", title: "FINANCIAL SERVICES" },
-  { image: "oilAndGas.jpeg", title: "OIL & GAS" },
+  {
+    image: "oilAndGas.jpeg",
+    title: "PROFESSIONAL SERVICES",
+    description:
+      "Designed for service-based businesses like consulting, legal, and IT, our ERP platform simplifies project management, client billing, and resource allocation. It enables better collaboration, improves client satisfaction, and ensures projects are delivered on time and within budget.",
+  },
+  {
+    image: "manufacturing.jpeg",
+    title: "MANUFACTURING",
+    description:
+      "For manufacturers, our ERP system optimizes production schedules, inventory management, and supply chain processes. With advanced reporting and analytics, you can reduce downtime, improve resource planning, and increase overall operational efficiency, helping you deliver high-quality products on time and at lower costs.",
+  },
+  {
+    image: "construction.jpeg",
+    title: "CONSTRUCTION",
+    description:
+      "Our ERP system enables construction companies to efficiently manage projects, resources, budgets, and timelines. With integrated tools for job costing, subcontractor management, and real-time reporting, you can ensure projects stay on schedule and within budget, improving operational efficiency and profitability.",
+  },
+  {
+    image: "financialServices.jpeg",
+    title: "FINANCIAL SERVICES",
+    description:
+      "In the financial services industry, our ERP solution helps firms manage complex accounting processes, regulatory compliance, and client data. From real-time financial reporting to risk management, our platform provides the tools necessary for making informed, data-driven decisions while ensuring regulatory adherence and enhancing overall financial performance..",
+  },
+  {
+    image: "oilAndGas.jpeg",
+    title: "OIL & GAS",
+    description:
+      "For the oil and gas industry, our ERP solution is designed to handle the complexities of resource management, supply chain logistics, and regulatory compliance. Whether you're managing exploration, production, or distribution, our platform provides real-time data, efficient asset tracking, and detailed financial oversight to optimize operations and reduce costs across the entire value chain.",
+  },
 ];
 
 export const testimonials = [
@@ -147,5 +174,23 @@ export const partner = [
   {
     image: "propyz.png",
     alt: "Propyz Company Logo",
+  },
+];
+
+export const footerIcons = [
+  {
+    icons: "linkedin.svg",
+  },
+  {
+    icons: "facebook.svg",
+  },
+  {
+    icons: "youtube.svg",
+  },
+  {
+    icons: "instagram.svg",
+  },
+  {
+    icons: "x.svg",
   },
 ];

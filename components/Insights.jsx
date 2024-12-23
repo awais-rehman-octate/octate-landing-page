@@ -8,10 +8,10 @@ const Insights = () => {
         <h3 className="text-center text-lg/8 font-semibold text-gray-700">
           Efficiency, Insight, Growth
         </h3>
-        <h2 className="text-center text-lg py-4 sm:text-2xl lg:text-3xl font-semibold text-gray-700">
+        <h2 className="text-center text-lg py-2 sm:text-2xl lg:text-3xl font-semibold text-gray-700">
           Transformative Powerful ERP Solutions
         </h2>
-        <p className="mt-4 text-center sm:px-12 lg:px-36 text-lg text-gray-500">
+        <p className=" text-center sm:px-12 lg:px-36 text-lg text-gray-500">
           Unlock the full potential of your business with our innovative
           cloud-powered platform. Streamline your operations, gain real-time
           insights, and drive growth with our comprehensive cloud based ERP

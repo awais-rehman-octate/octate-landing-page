@@ -9,7 +9,7 @@ const UnlockYourBusiness = () => {
         <h2 className="text-center text-lg py-2 sm:text-2xl lg:text-3xl font-semibold text-gray-700">
           Unlock Your Business Potential with Seamless Integrated Modules
         </h2>
-        <p className="mt-4 text-center sm:px-12 lg:px-36 text-lg text-gray-500">
+        <p className="text-center sm:px-12 lg:px-36 text-lg text-gray-500">
           Our cloud based ERP software brings together core business functions
           like accounting, procurement, inventory management, and more, giving
           you full control and visibility in one unified platform.
