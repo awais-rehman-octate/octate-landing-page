@@ -1,11 +1,12 @@
 import React from "react";
 import { unlockYourBusinesstData } from "@/constants/data";
+import Image from "next/image";
 
 const UnlockYourBusiness = () => {
   return (
     <div className="bg-white py-12 sm:py-16">
       <div className="mx-auto max-w-7xl px-6 lg:px-8 ">
-      <h2 className="text-center text-lg py-2 sm:text-2xl lg:text-3xl font-semibold text-gray-700">
+        <h2 className="text-center text-lg py-2 sm:text-2xl lg:text-3xl font-semibold text-gray-700">
           Unlock Your Business Potential with Seamless Integrated Modules
         </h2>
         <p className="mt-4 text-center sm:px-12 lg:px-36 text-lg text-gray-500">
@@ -17,7 +18,13 @@ const UnlockYourBusiness = () => {
           {unlockYourBusinesstData.map((item, index) => (
             <div key={index} className="flex flex-col items-center mt-2">
               <div className="p-2 w-[75px] h-[75px] mx-auto content-center mb-4 rounded-full bg-[#2E90FA]/10">
-                <item.icon className="size-8 text-[#2E90FA] mx-auto" />
+                <Image
+                  src={`/${item.icon}`}
+                  width={48}
+                  height={48}
+                  className="text-[#2E90FA] mx-auto"
+                  alt={`${item.title} icon`}
+                />
               </div>
               <h3 className="text-center text-md py-2 sm:text-md lg:text-lg font-semibold text-gray-500">
                 {item.title}

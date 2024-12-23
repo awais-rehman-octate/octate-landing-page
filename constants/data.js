@@ -30,56 +30,56 @@ export const insightData = [
 ];
 export const unlockYourBusinesstData = [
   {
-    icon: BoltIcon,
+    icon: "Unit.svg",
     title: "Comprehensive Modules",
     description:
       "Accounting, Financials, Order Management, Procurement, Inventory, Warehouse Management, Project Tracking, Business Intelligence, and more—all integrated into one system.",
     path: "",
   },
   {
-    icon: SparklesIcon,
+    icon: "Export-Ledger.svg",
     title: "Advanced Accounting Features",
     description:
       "Accounts Receivable, Accounts Payable, Bank Deposit & Reconciliation, General Ledger, Journal Entries, Multi-Currency Support, and Tax Accounting.",
     path: "",
   },
   {
-    icon: LockClosedIcon,
+    icon: "Graph-Report.svg",
     title: "Interactive Reporting & BI",
     description:
       "Real-time Business Intelligence and custom financial reports to keep track of performance, compliance, and forecast future trends.",
     path: "",
   },
   {
-    icon: HeartIcon,
+    icon: "Anchor-Nodes.svg",
     title: "Multi-Entity Management",
     description:
       "Multi-Company, Multi-Warehouse, and Multi-Currency support to manage complex global operations easily.",
     path: "",
   },
   {
-    icon: HeartIcon,
+    icon: "Facebook-Like.svg",
     title: "Transaction Approvals",
     description:
       "Streamline workflows with transaction approval systems, ensuring accuracy and compliance across departments.",
     path: "",
   },
   {
-    icon: HeartIcon,
+    icon: "Data-Protection.svg",
     title: "Robust Data Security",
     description:
       "Protect your sensitive business information with state-of-the-art encryption, role-based access control, and regular backups, ensuring that your data remains secure, compliant, and accessible only to authorized users.",
     path: "",
   },
   {
-    icon: HeartIcon,
+    icon: "Connected.svg",
     title: "API Integration",
     description:
       "Seamlessly connect with third-party software to extend functionality and adapt to your business needs.",
     path: "",
   },
   {
-    icon: HeartIcon,
+    icon: "Remote-Working.svg",
     title: "Cloud-Powered Flexibility",
     description:
       "Access your data anytime, anywhere, with our secure cloud-based ERP solution that ensures scalability, seamless updates, and remote collaboration for your team.",

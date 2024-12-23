@@ -25,8 +25,8 @@ const Navbar = () => {
             <span className="sr-only">Octate</span>
             <img
               alt="Octate Company Logo"
-              src="/octate-logo.png"
-              className="h-16 w-auto"
+              src="/octate-logo-icon.png"
+              className="h-8 px-2 w-auto"
             />
           </a>
         </div>
@@ -52,12 +52,18 @@ const Navbar = () => {
           ))}
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a href="https://staging.octate.ooo/login" className="text-sm/6 px-4 py-2 font-semibold text-gray-500">
+          <a
+            href="https://staging.octate.ooo/login"
+            className="text-sm/6 px-4 py-2 font-semibold text-gray-500"
+          >
             Log in <span aria-hidden="true">&rarr;</span>
           </a>
-            <a href="https://staging.octate.ooo/login" className="text-sm/6 px-4 py-2 font-semibold rounded-md bg-[#2E90FA] text-white">
-              Sign Up
-            </a>
+          <a
+            href="https://staging.octate.ooo/login"
+            className="text-sm/6 px-4 py-2 font-semibold rounded-md bg-[#2E90FA] text-white"
+          >
+            Sign Up
+          </a>
         </div>
       </nav>
       <Dialog
@@ -70,11 +76,11 @@ const Navbar = () => {
           <div className="flex items-center justify-between">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
-                <img
-              alt="Octate Company Logo"
-              src="/octate-logo.png"
-              className="h-16 w-auto"
-            />
+              <img
+                alt="Octate Company Logo"
+                src="/octate-logo.png"
+                className="h-16 w-auto"
+              />
             </a>
             <button
               type="button"

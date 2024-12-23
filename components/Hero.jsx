@@ -3,14 +3,14 @@ import Image from "next/image";
 export default function Hero() {
   return (
     <div className="mx-auto w-[90%] py-4 max-w-7xl">
-      <div className="relative isolate overflow-hidden pt-16 sm:rounded-tr-xl md:pt-24 lg:pt-0 h-[680px]">
+      <div className="relative isolate overflow-hidden pt-16 rounded-tr-xl md:pt-24 lg:pt-0 h-[580px] sm:h-[450px] md:h-[680px]">
         <div className="absolute inset-0 bg-gradient-to-r z-10 from-white via-white/100 to-transparent"></div>
         {/* text */}
-        <div className=" relative w-full md:w-2/3 xl:w-1/2  z-20 lg:mx-0 lg:flex-auto lg:py-24 px-4 lg:px-0 text-left">
+        <div className=" relative w-full md:w-2/3 xl:w-1/2  z-20 lg:mx-0 lg:flex-auto lg:py-24  lg:px-0 text-left">
           <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-[#2E90FA] ">
             Revolutionize Your Business with Powerful ERP Solutions
           </h2>
-          <p className="mt-6 text-pretty text-base text-gray-500">
+          <p className="mt-6 text-pretty text-base text-gray-500 py-2 bg-white/90 md:bg-transparent">
             Empower your team with our intuitive and user-friendly cloud based
             ERP application. Streamline your business operations, boost
             productivity, and achieve unprecedented growth. Our cutting-edge
@@ -18,7 +18,7 @@ export default function Hero() {
             way you work, delivering unparalleled results and a seamless user
             experience.
           </p>
-          <div className="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
+          <div className="mt-10 flex items-center justify-center gap-x-6 sm:justify-start">
             <a
               href="https://staging.octate.ooo/"
               className="rounded-md bg-[#2E90FA] px-3.5 py-2.5 lg:text-base text-sm font-semibold text-white shadow-sm hover:bg-[#2E90FA]/80 transition-colors  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
