@@ -3,16 +3,22 @@
 import React, { useState } from "react";
 import { Dialog, DialogPanel } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import { usePathname } from "next/navigation";
+import clsx from "clsx";
 
 const navigation = [
-  { name: "About Us", href: "#" },
-  { name: "Products", href: "#" },
-  { name: "Industry", href: "#" },
-  { name: "Pricing", href: "#" },
-  { name: "Resources", href: "#" },
-  { name: "Support", href: "#" },
+  { name: "Home", href: "/" },
+  { name: "About Us", href: "about" },
+  { name: "Products", href: "products" },
+  { name: "Industry", href: "industry" },
+  { name: "Pricing", href: "pricing" },
+  { name: "Resources", href: "resources" },
+  { name: "Support", href: "support" },
 ];
 const Navbar = () => {
+  const path = usePathname();
+  
+  console.log("path: ",path)
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   return (
     <header className="relative inset-x-0 top-0 z-50 max-w-7xl mx-auto">
@@ -45,7 +51,12 @@ const Navbar = () => {
             <a
               key={item.name}
               href={item.href}
-              className="text-sm/6 font-semibold text-gray-500"
+              className={clsx(
+                "text-sm/6 font-semibold",
+                path ===`${item.href}`
+                  ? "text-[#2E90FA] border-b-2 border-[#2E90FA]/70"
+                  : "text-gray-500 hover:text-[#2E90FA]"
+              )}
             >
               {item.name}
             </a>

@@ -95,7 +95,7 @@ export const services = [
       "Our ERP system integrates sales, inventory, and customer relationship management to help retail and distribution businesses streamline operations, improve stock control, and deliver a better customer experience. With real-time insights and efficient order fulfillment, you can stay ahead of market trends and grow your business.",
   },
   {
-    image: "oilAndGas.jpeg",
+    image: "professionalServices.jpg",
     title: "PROFESSIONAL SERVICES",
     description:
       "Designed for service-based businesses like consulting, legal, and IT, our ERP platform simplifies project management, client billing, and resource allocation. It enables better collaboration, improves client satisfaction, and ensures projects are delivered on time and within budget.",
@@ -116,7 +116,7 @@ export const services = [
     image: "financialServices.jpeg",
     title: "FINANCIAL SERVICES",
     description:
-      "In the financial services industry, our ERP solution helps firms manage complex accounting processes, regulatory compliance, and client data. From real-time financial reporting to risk management, our platform provides the tools necessary for making informed, data-driven decisions while ensuring regulatory adherence and enhancing overall financial performance..",
+      "In the financial services industry, our ERP solution helps firms manage complex accounting processes, regulatory compliance, and client data. From real-time financial reporting to risk management, our platform provides the tools necessary for making informed, data-driven decisions while ensuring regulatory adherence and enhancing overall financial performance.",
   },
   {
     image: "oilAndGas.jpeg",
@@ -192,5 +192,38 @@ export const footerIcons = [
   },
   {
     icons: "x.svg",
+  },
+];
+
+export const faqs = [
+  {
+    question: "What makes our ERP solution cost-effective?",
+    answer:
+      "Our ERP solution is cost-effective due to its modular design, allowing businesses to pay only for what they need, and its cloud-based deployment, eliminating expensive hardware and IT maintenance costs. It streamlines operations, integrates seamlessly with existing tools, offers quick implementation, and provides real-time analytics, reducing inefficiencies and maximizing value.",
+  },
+  {
+    question: "How does the ERP system improve productivity?",
+    answer:
+      "The system automates core business processes, allowing your team to focus on strategic tasks rather than manual data entry, thereby boosting overall productivity.",
+  },
+  {
+    question: "Can the ERP handle multi-currency transactions?",
+    answer:
+      "Yes, our ERP system supports multi-currency transactions, making it ideal for businesses operating in multiple countries or dealing with international clients.",
+  },
+  {
+    question: "What kind of business intelligence tools are included?",
+    answer:
+      "Our ERP solution features comprehensive business intelligence tools that offer deep insights through real-time data analytics and customizable dashboards.",
+  },
+  {
+    question: "Is the ERP system scalable?",
+    answer:
+      "Absolutely, our ERP solution is designed to grow with your business. It can be easily scaled to accommodate increased data, users, and additional modules as your company expands.",
+  },
+  {
+    question: "How secure is the ERP system?",
+    answer:
+      "Security is our top priority. Our ERP system employs advanced security measures including data encryption, secure access controls, and regular updates to safeguard your business information.",
   },
 ];

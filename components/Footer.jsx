@@ -147,7 +147,7 @@ const Footer = () => {
               </h3>
               <ul className="mt-4 space-y-2 text-sm">
                 <li>
-                  <a href="#" className="hover:text-[#2E90FA]">
+                  <a href="contact" className="hover:text-[#2E90FA]">
                     Contact Us
                   </a>
                 </li>
