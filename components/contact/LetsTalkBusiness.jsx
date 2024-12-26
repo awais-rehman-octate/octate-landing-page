@@ -52,7 +52,7 @@ const LetsTalkBusiness = () => {
               />
             </div>
             <div className="mt-2">
-              <button className="rounded-full bg-[#2E90FA] px-3.5 py-1.5 lg:text-base text-sm text-white shadow-sm hover:bg-[#2E90FA]/80 transition-colors  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2">
+              <button className="rounded-lg  bg-[#2E90FA] px-3.5 py-1.5 lg:text-base text-sm text-white shadow-sm hover:bg-[#2E90FA]/80 transition-colors  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2">
                 {" "}
                 Submit <span aria-hidden="true">&rarr;</span>
               </button>

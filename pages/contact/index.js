@@ -6,12 +6,12 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <>
+    <div>
       <GetInTouch />
       <LetsTalkBusiness />
       <FAQs />
       <Connect />
-    </>
+    </div>
   );
 };
 
